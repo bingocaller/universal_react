@@ -1,0 +1,10 @@
+.navigation-link {
+  color: $gray-lightest;
+  display: inline-block;
+  padding: .5em 1em;
+  text-decoration: none;
+  &.active {
+    color: #fff;
+    font-weight: bold;
+  }
+}

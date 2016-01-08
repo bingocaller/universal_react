@@ -9,14 +9,17 @@ const routes = {
   childRoutes: [
     {
       path: '/',
+      name: 'index',
       component: IndexComponent
     },
     {
       path: '/about',
+      name: 'about',
       component: AboutComponent
     },
     {
       path: '/test',
+      name: 'test',
       component: TestComponent
     }
   ]
