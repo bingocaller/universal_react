@@ -26,7 +26,9 @@
     "eslint-plugin-react": "^3.13.1",
     "history": "^1.17.0",
     "node-sass": "^3.4.2",
+    "postcss-loader": "^0.8.0",
     "resolve-url-loader": "^1.4.3",
+    "sanitize.css": "^3.0.0",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.9"
