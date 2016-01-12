@@ -1,8 +1,11 @@
 .navigation-link {
   color: $gray-lightest;
-  display: inline-block;
+  display: block;
   padding: .5em 1em;
-  text-decoration: none;
+  &:focus,
+  &:hover {
+    background-color: $gray-darkest;
+  }
   &.active {
     color: #fff;
     font-weight: bold;

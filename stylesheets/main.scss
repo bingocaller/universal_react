@@ -1,9 +1,26 @@
+@import 'utilities/colours';
+@import 'utilities/sanitize_overrides';
+
 @import '~sanitize.css/sanitize';
 
-@import 'utilities/colours';
+@import 'utilities/flex_container';
 
-@import 'quarks/html_body';
+@import 'quarks/headings';
 
 @import 'atoms/navigation_link';
+@import 'atoms/paragraph';
+@import 'atoms/wrapper';
 
+@import 'organisms/intro';
 @import 'organisms/navigation';
+
+:root,
+html,
+body,
+.app {
+  height: 100vh;
+}
+
+.main-content {
+  flex: 3 1 75%;
+}
