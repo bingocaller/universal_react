@@ -24515,23 +24515,19 @@
 	        'nav',
 	        { className: 'navigation' },
 	        _react2.default.createElement(
-	          'div',
-	          { className: 'flex-container' },
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { className: 'navigation-link', activeClassName: 'active', to: '/' },
-	            'Home'
-	          ),
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { className: 'navigation-link', activeClassName: 'active', to: '/about' },
-	            'About'
-	          ),
-	          _react2.default.createElement(
-	            _reactRouter.Link,
-	            { className: 'navigation-link', activeClassName: 'active', to: '/test' },
-	            'Test'
-	          )
+	          _reactRouter.Link,
+	          { className: 'navigation-link', activeClassName: 'active', to: '/' },
+	          'Home'
+	        ),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { className: 'navigation-link', activeClassName: 'active', to: '/about' },
+	          'About'
+	        ),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { className: 'navigation-link', activeClassName: 'active', to: '/test' },
+	          'Test'
 	        )
 	      );
 	    }
