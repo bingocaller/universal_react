@@ -1,7 +1,7 @@
 .navigation-link {
-  color: $gray-lightest;
   display: block;
   padding: 1em;
+  color: $gray-lightest;
   transition: box-shadow .2s ease-out;
   &:focus,
   &:hover {
